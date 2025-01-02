@@ -1787,7 +1787,7 @@ td p {
     padding: 0.7rem 2rem;
   }
   .logo h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .menu_bar {
     font-size: 1.6rem;
@@ -1822,12 +1822,12 @@ td p {
     width: 100%;
   }
   .text p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height: 1.2rem;
   }
   .btn {
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .intro p {
     font-size: 0.9rem;
@@ -1854,7 +1854,7 @@ td p {
 
   /* trusted content */
   .trust_content {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
     margin: auto;
     height: 200px;
@@ -1876,14 +1876,14 @@ td p {
   }
   .get_text .btn {
     padding: 0.6rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     background-color: transparent;
     border: none;
     color: var(--color-black);
     text-decoration: underline;
   }
   .get_text p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   /* footer section */
@@ -1897,20 +1897,20 @@ td p {
   }
   .footer_sec {
     width: 95%;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-right: 1.4rem;
     line-height: 1.2rem;
     padding: 1rem 0;
   }
   .footer_sec p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .msg {
     display: flex;
     justify-self: center;
     align-items: center;
     gap: 5px;
-    margin-top: 0.1rem;
+    margin-top: 0rem;
   }
   .msg p {
     font-size: 0.4rem;
@@ -2004,12 +2004,12 @@ td p {
   }
   .form_sec input {
     padding: 0.4rem 0.6rem;
-    width: 12rem;
+    width: 20rem;
     font-size: 0.9rem;
   }
   .form_sec textarea {
     padding: 0.4rem 0.6rem;
-    width: 12rem;
+    width: 20rem;
     font-size: 0.9rem;
   }
   .input_btn {
@@ -2076,7 +2076,7 @@ td p {
   }
   .cart_btn {
     padding: 0.5rem 0.7rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   /* single product */
@@ -2120,13 +2120,13 @@ td p {
     font-size: 1rem;
   }
   .product_title p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .product_title del {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .desc {
-    line-height: 1.3rem;
+    line-height: 1.2rem;
     width: 100%;
   }
   .product_icon {
@@ -2138,16 +2138,17 @@ td p {
 
   .item_icon {
     margin-top: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
   .product_item p {
-    font-size: 0.9rem;
+    font-size: 0.4rem;
   }
   .product_stock {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .product_colors p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   /* products section */
@@ -2190,12 +2191,13 @@ td p {
   /* filter section */
   .filter_sec {
     top: 9rem;
+    border: none;
     right: 20rem;
     position: inherit;
     width: 100%;
   }
   .clear_btn {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .filter_dashboard {
     padding: 1rem;
@@ -2221,10 +2223,10 @@ td p {
     font-size: 0.9rem;
   }
   .price {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .range_input {
-    width: 80%;
+    width: 75%;
     height: 6px;
     opacity: 0.7;
   }

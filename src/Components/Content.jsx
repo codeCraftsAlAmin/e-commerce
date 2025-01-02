@@ -24,7 +24,7 @@ const Content = () => {
 
       <div className="img_sec">
         <div className="color"></div>
-        <img src="/public/images/hero.jpg" alt="" />
+        <img src="/images/hero.jpg" alt="" />
       </div>
     </div>
   );

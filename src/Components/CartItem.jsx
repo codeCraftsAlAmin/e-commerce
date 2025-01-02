@@ -20,7 +20,7 @@ const CartItem = () => {
             <th className="item_th">item</th>
             <th>price</th>
             <th className="quan_th">qunatity</th>
-            <th>subtotal</th>
+            <th className="sub_mob">subtotal</th>
             <th>remove</th>
           </tr>
         </thead>

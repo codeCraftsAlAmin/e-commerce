@@ -32,8 +32,8 @@ const CartStore = (currElem) => {
           <FormatePrice price={price} />
         </p>
       </td>
-      <td>
-        <div >
+      <td className="quan_cell">
+        <div>
           <Amount
             amount={amount}
             setIcrease={() => setIncreament(id)}

@@ -1774,10 +1774,13 @@ td p {
 
 /* responsive for mobile devices */
 @media screen and (max-width: 430px) {
-  /* navbar */
   body {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
   }
+
+  /* navbar */
   nav {
     margin-right: 0.4rem;
   }
@@ -1801,25 +1804,30 @@ td p {
 
   /* content section */
   .content_sec {
+    display: flex;
     flex-direction: column;
     width: 100%;
     margin: -2rem auto;
-    gap: 0rem;
-  }
-  .img_sec {
-    left: 2rem;
+    gap: 1rem;
   }
   .img_sec .color {
     width: 75%;
-    bottom: -27px;
-    left: 45px;
+    bottom: -30px;
+    left: 70px;
+    /* left: 45px; */
   }
   .img_sec {
-    margin-left: -1rem;
+    position: relative;
+    right: 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
   }
   .img_sec img {
     max-width: 75%;
+    display: block;
+    margin: 0 auto;
   }
+
   .text {
     gap: 1rem;
     width: 100%;

@@ -1775,6 +1775,9 @@ td p {
 /* responsive for mobile devices */
 @media screen and (max-width: 430px) {
   /* navbar */
+  body {
+    overflow-x: hidden;
+  }
   nav {
     margin-right: 0.4rem;
   }
@@ -2042,6 +2045,7 @@ td p {
   }
   .trash {
     font-size: 0.9rem;
+    background-color: transparent;
   }
 
   /* shoping button and cart */
@@ -2210,14 +2214,14 @@ td p {
     font-size: 0.9rem;
   }
   .filter_category h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .filter_category button {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     background-color: transparent;
   }
   .company select {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .colors button {
     font-size: 0.9rem;
